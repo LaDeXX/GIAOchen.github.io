@@ -1,5 +1,6 @@
 body{
     background-image: url(./../image/MainBackground.png);
+    background-attachment:fixed;
     font-size: 200%;
     background-repeat:no-repeat;
 }
