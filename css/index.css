@@ -1,0 +1,5 @@
+#MyCard{
+    background-image: url(./../image/CardBackground.png);
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 20px;
+}

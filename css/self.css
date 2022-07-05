@@ -1,10 +1,8 @@
 #star{
     color:gold;
+    text-shadow: none;
+    text-decoration: underline;
 }
 #information{
     font-size: large;
-}
-#MyCard{
-    background-image: url(./../image/CardBackground.png);
-    box-shadow: 5px 5px 5px grey;
 }
