@@ -3,6 +3,10 @@ body{
     font-size: 200%;
     background-repeat:no-repeat;
 }
+abbr{
+    color: gray;
+    text-decoration: none;
+}
 .title{
     color:coral;
     text-shadow: 5px 5px 10px black;
