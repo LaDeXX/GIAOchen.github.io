@@ -8,13 +8,13 @@ body{
     text-shadow: 5px 5px 10px black;
 }
 .header{
-    margin: 10px;
+    margin:5px;
     padding: 10px;
     float: left;
 }
 .lastheader{
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
 }
 a{
     color: orange;
@@ -27,7 +27,11 @@ pre{
     font-size: 200%;
 }
 header{
+    height: 70px;
+    width: 100%;
     padding: 10px;
-    margin: 5px;
+    margin:0;
     background-color: rgb(0, 145, 234);
+    position: sticky;
+    top: 0;
 }
