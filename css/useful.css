@@ -21,10 +21,10 @@ a{
     text-shadow: 4px 4px 4px coral;
 }
 p{
-    font-size: 200%;
+    font-size: 100%;
 }
 pre{
-    font-size: 200%;
+    font-size: 100%;
 }
 header{
     height: 70px;
@@ -34,4 +34,8 @@ header{
     background-color: rgb(0, 145, 234);
     position: sticky;
     top: 0;
+}
+.article{
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
 }
