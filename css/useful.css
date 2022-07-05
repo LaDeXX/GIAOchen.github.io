@@ -1,6 +1,5 @@
 body{
-    background-image: url(./../image/MainBackground.png);
-    background-attachment:fixed;
+    background-color: #ffffff;
     font-size: 200%;
     background-repeat:no-repeat;
 }
