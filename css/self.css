@@ -5,6 +5,6 @@
     font-size: large;
 }
 #MyCard{
-    background-color: rgba(256, 256, 256, 0.8);
-    
+    background-color: rgba(200,200,200,0.6);
+    box-shadow: 5px 5px 5px black;
 }
