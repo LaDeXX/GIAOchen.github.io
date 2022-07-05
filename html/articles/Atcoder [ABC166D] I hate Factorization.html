@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="./../../css/useful.css" type="text/css" rel="stylesheet">
+        <link href="./../../css/articles/IHateFactorization.css" type="text/css" rel="stylesheet">
+        <title>Atcoder [ABC166D] I hate Factorization</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="title header" >GIAOchen的小窝</div>
+                <div class="header">
+                    <a href="./../index.html">Home</a>
+                </div>
+                <div class="header">
+                    <a href="./../self.html">About</a> 
+                </div>
+                <div class="header">
+                    <a href="./../article.html">Article</a> 
+                </div>
+                <div class="lastheader"></div>
+            </nav>
+        </header>
+        <h3>Atcoder [ABC166D] I hate Factorization</h3>
+        <a href="https://www.luogu.com.cn/problem/AT5404">题目传送门</a>
+        <br>
+        <h4>题意如下</h4>
+        <pre>
+找一组<img src="./../../image/Article/I hate Factorization/1.png">,满足<img src="./../../image/Article/I hate Factorization/2.png">;
+        </pre>
+        <h4>分析</h4>
+        <pre>
+如果直接暴力枚举，相信我，一定会TLE(<del>试试就逝世</del>)
+通过复杂的手算，我们可以发现：</pre>
+        <ol>
+            <li>1.<img src="./../../image/Article/I hate Factorization/1.png">的差越小，<img src="./../../image/Article/I hate Factorization/3.png">也越小</li>
+            <li>2.由于<img src="./../../image/Article/I hate Factorization/4.png">已经大于<img src="./../../image/Article/I hate Factorization/5.png">，所以<img src="./../../image/Article/I hate Factorization/1.png">的范围就是<img src="./../../image/Article/I hate Factorization/6.png"></li>
+        </ol>
+        <h3>代码</h3>
+        <pre>
+#include&lt;bits/stdc++.h&gt;
+#define ll long long
+using namespace std;
+ll y;
+ll f(ll x){return x*x*x*x*x;};//5次方函数
+int main(){
+    cin>>y;
+    //枚举
+    for(int i=-150;i<=150;i++){
+        for(int j=-150;j<=150;j++){
+            if(f(i)-f(j)==y){//如果i^5-j^5==Y
+                printf("%d %d",i,j);
+                return 0;
+            }
+        }
+    }
+    return 0;
+} 
+    </pre>
+        <h3>Tips</h3>
+        <pre class="keyword">long long 别忘记</pre>
+    </body>
+</html>

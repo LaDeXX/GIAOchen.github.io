@@ -3,6 +3,13 @@ body{
     font-size: 200%;
     background-repeat:no-repeat;
 }
+.keyword{
+    font-size: 120%;
+    color: red;
+}
+li{
+    font-size: 80%;
+}
 abbr{
     color: gray;
     text-decoration: none;
