@@ -19,6 +19,7 @@ body{
 a{
     color: orange;
     text-shadow: 4px 4px 4px coral;
+    text-decoration: none;
 }
 p{
     font-size: 100%;

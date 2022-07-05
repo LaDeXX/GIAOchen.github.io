@@ -1,0 +1,19 @@
+.articleitem{
+    margin-top: 20px;
+    padding: 10px;
+    width: 1000px;
+    height: 175px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: rgb(245, 245, 245);
+    text-align:center;
+}
+.articletitle{
+    font-size: 150%;
+    text-shadow: none;
+    margin: 10px;
+}
+.articlemain{
+    margin: 25px;
+    font-size: 75%;
+    color: gray;
+}
