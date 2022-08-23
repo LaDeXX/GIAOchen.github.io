@@ -2,6 +2,7 @@ body{
     background-color: #ffffff;
     font-size: 200%;
     background-repeat:no-repeat;
+    cursor: url("./../image/cursur.png"),pointer;
 }
 .keyword{
     font-size: 120%;
